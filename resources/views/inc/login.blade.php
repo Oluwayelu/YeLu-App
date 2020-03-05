@@ -1,5 +1,5 @@
 <div class="row justify-content-center">
-  <div class="col-md-8">
+  <div class="col-md-6">
 <form class="form-signin" action="/login/checklogin" method="post">
   <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
   <label for="inputEmail" class="sr-only">Email address</label>
@@ -12,6 +12,7 @@
     </label>
   </div>
   <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
-</form>
+</form></br>
+<label>Sign Up if you don't have an Account <a href="/register">Sign Up</a> </label>
 </div>
 </div>

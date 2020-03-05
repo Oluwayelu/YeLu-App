@@ -12,6 +12,10 @@ class MainController extends Controller
         return view('login');
     }
 
+    function register() {
+        return view('register');
+    }
+
     function checklogin(Request $request){
         $this->validate($request, [
             'email'         => 'required|email',

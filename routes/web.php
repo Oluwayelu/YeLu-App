@@ -26,10 +26,13 @@ Route::get('/contact', function () {
 Route::get('/login', 'MainController@index');
 Route::post('/login/checklogin', 'MainController@checklogin');
 Route::post('/login/successlogin', 'MainController@successlogin');
+Route::get('/register', 'MainController@register');
 
-Route::get('/register', function () {
-    return view('register');
-});
+Route::resource('posts', 'PostsController');
 
 Route::post('/contact/submit', 'MessagesController@submit');
 
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');

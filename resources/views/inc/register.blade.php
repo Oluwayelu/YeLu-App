@@ -18,7 +18,7 @@
         <input type="password" class="form-control" placeholder="Confirm Password" name="password2">
     </div>
     <button type="submit" class="btn btn-lg btn-primary">Sign Up</button>
-</form></br>
+</form><br>
 <label>Sign In if you already have an Account <a href="/login">Sign In</a> </label>
 </div>
 </div>
